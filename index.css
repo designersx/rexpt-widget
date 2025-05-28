@@ -1,0 +1,76 @@
+.voice-call-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 320px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #aaa;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+}
+
+.voice-call-header {
+  background: #0078d4;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#voice-call-close {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.voice-call-body {
+  padding: 10px;
+}
+
+.agent-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.agent-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.call-button {
+  padding: 10px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.call-status {
+  text-align: center;
+  font-weight: bold;
+}
+
+.call-status.connected {
+  color: green;
+}
