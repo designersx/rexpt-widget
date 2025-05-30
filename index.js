@@ -6,8 +6,8 @@ window.addEventListener('DOMContentLoaded', async () => {
   }
   if (document.getElementById("voice-call-agent")) return;
   const agentId = getAgentIdFromURL();
-  // const API_URL = "https://rexptin.truet.net/api"
-  const API_URL = "http://localhost:2512/api"
+  const API_URL = "https://rexptin.truet.net/api"
+  // const API_URL = "http://localhost:2512/api"
   // Step 1: Fetch agent details
   let agentName = "Support Agent";
   let agentVoiceId = "";
