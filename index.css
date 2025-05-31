@@ -1,4 +1,4 @@
-.voice-call-container {
+/* .voice-call-container {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -73,14 +73,14 @@
 
 .call-status.connected {
   color: green;
-} 
+}  */
 
 
 
 
 
 
-/* 
+
 .raxAgentdiv {
     position: absolute;
     bottom: 1rem;
@@ -430,4 +430,4 @@ background: linear-gradient(130deg, #ff000000 47%, #E2E1DF 100%);
 
 .agentTag {
   color: #ffffff;
-}  */
+}  
